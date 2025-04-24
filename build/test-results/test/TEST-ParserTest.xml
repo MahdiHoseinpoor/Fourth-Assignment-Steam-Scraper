@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-28T15:09:51" hostname="DESKTOP-UC73C4L" time="0.037">
+<testsuite name="ParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-04-24T11:27:11" hostname="DESKTOP-ICE5LUF" time="0.145">
   <properties/>
-  <testcase name="testSortByArea()" classname="ParserTest" time="0.028"/>
-  <testcase name="testSortByName()" classname="ParserTest" time="0.003"/>
-  <testcase name="testSortByPopulation()" classname="ParserTest" time="0.004"/>
+  <testcase name="testSortByName()" classname="ParserTest" time="0.106"/>
+  <testcase name="testSortByRating()" classname="ParserTest" time="0.009"/>
+  <testcase name="testSortByPrice()" classname="ParserTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

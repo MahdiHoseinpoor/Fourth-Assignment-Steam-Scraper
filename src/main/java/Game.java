@@ -6,35 +6,30 @@ public class Game {
     private int price;
 
     public Game(String name, double rating, int price) {
-        //TODO
-
+        this.name = name;
+        this.rating = rating;
+        this.price = price;
     }
-
     public String getName() {
         return name;
     }
-
-
     public double getRating() {
         return rating;
     }
-
     public int getPrice() {
         return price;
     }
-
     @Override
     public String toString() {
-        //TODO
-        return "";
+        return String.format("%s -> Rating: %.1f/5 - Price: %d€", name, rating, price);
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Game game = (Game) o;
-        return Double.compare(game.rating, rating) == 0 && Double.compare(game.price, price) == 0 && Objects.equals(name, game.name);
+        return game.rating == rating &&
+                price == game.price &&
+                Objects.equals(name, game.name);
     }
-
 }
